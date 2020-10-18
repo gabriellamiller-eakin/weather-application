@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+
+    <!-- linking to stylesheet via bootstrap  -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <!-- linking to font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <!-- linking to google fonts  -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300&display=swap" rel="stylesheet">
+    <!-- linking to CSS -->
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1> Weather Dashboard </h1>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+
+                <div class=form>
+                    <input type="text" placeholder="Search a City here!" class="citySearch"> 
+                    <button id="search-city" class="button">Search</button>
+                </div>
+                <br>
+                <div class = "city-display"> cities append here </div>
+
+            </div>
+        
+                <!-- <div class="row"> -->
+    <div class= "col-md-9">
+            <div class="display-weather"> weather dis </div>
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <h2> 5-Day Forecast </h2>
+
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-2">
+                            
+                    <div class = "display-forecast1">
+                        
+                        <div class="card"> day 1 </div>
+                                
+                    </div>
+                    
+                    </div>
+
+                    <div class="col-md-2">
+                            
+                    <div class = "display-forecast2">
+                        
+                        <div class="card"> day 2 </div>
+                                
+                    </div>
+                    
+                    </div>
+
+                    <div class="col-md-2">
+                            
+                    <div class = "display-forecast3">
+                        
+                            <div class="card"> day 3 </div>
+                                
+                    </div>
+                    
+                    </div>
+
+                    <div class="col-md-2">
+                            
+                    <div class = "display-forecast4">
+                        
+                            <div class="card"> day 4 </div>
+                                
+                    </div>
+                    
+                    </div>
+
+                    <div class="col-md-2">
+                            
+                    <div class = "display-forecast5">
+                        
+                            <div class="card"> day 5 </div>
+                                
+                    </div>
+                    
+                    </div>
+
+                </div>
+     
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
