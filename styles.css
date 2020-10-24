@@ -34,7 +34,51 @@ h1 {
 }
 
 h3 {
-    background-color: rgb(238, 234, 234); 
+     
     font-size: 25px;
     font-weight: bold;
+}
+
+h4 {
+    font-size:14px; 
+    color: white; 
+    position: relative;
+    left:2px;
+     
+}
+
+#card1{
+    background-color: rgba(0, 110, 255, 0.959);
+   
+}
+
+#card2 {
+    background-color: rgba(0, 110, 255, 0.959);
+}
+
+#card3 {
+    background-color: rgba(0, 110, 255, 0.959);
+}
+
+#card4 {
+    background-color: rgba(0, 110, 255, 0.959);
+}
+
+#card5 {
+    background-color: rgba(0, 110, 255, 0.959);
+}
+
+.tomorrowclass {
+    color:white; 
+    font-size: 12px;
+    position: relative;
+    left:3px; 
+}
+
+img {
+    width:50px; 
+    height: 50px;
+    text-align: center;
+    position:relative;
+    left:15px; 
 }
